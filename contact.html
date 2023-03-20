@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+
+  <div id="entetedespages" >
+   
+    <ul id="menuderoulantesaufacceuil">
+     <li><a href="#"><img src="./menu.png" class="diminuerimagemenu" alt=""></a>
+        <ul>
+         <li><a href="index.html">Acceuil</a></li>
+         <li><a href="destination.html">Destination</a></li>
+         <li><a href="visite.html">Visites</a></li>
+         <li><a href="guide.html">Guide</a></li>
+         <li><a href="contact.html">Contact</a></li>
+       </ul>
+      </li> 
+     </ul> 
+     <div class="logonom">  
+       <h1 > <a href="index.html">𝔸𝕃𝔸𝕃</a></h1>
+     </div>
+   </div>
+
+
+  <div class="container">
+    <h1>Formulaire de contact</h1>
+    <form action="/action_page.php">
+      <label for="fname" style="color: white;">Nom & prénom</label>
+      <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+  
+      <label for="sujet" style="color: white;">Sujet</label>
+      <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+  
+      <label for="emailAddress" style="color: white;">Email</label>
+      <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+  
+  
+      <label for="subject" style="color: white;">Message</label>
+      <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+  
+      <input type="submit" value="Envoyer">
+    </form>
+  </div>
+  
+</body>
+</html>

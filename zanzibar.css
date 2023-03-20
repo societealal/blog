@@ -1,0 +1,332 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&family=Poppins:wght@200;400&display=swap');
+ 
+
+ .logonom{
+  color: white;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: 25px;
+ top: 0; 
+}
+.logonom a:hover{
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom a{
+ color: #fff;
+ text-decoration: none;
+}
+#entetedespages{
+  background:rgb(82, 169, 156);
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+
+
+
+#menuderoulantesaufacceuil {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 110px;
+ margin-left: 90%;
+ margin-top: 1.5%;
+position: fixed;
+}
+#menuderoulantesaufacceuil ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menuderoulantesaufacceuil li {
+   background-color: #999; 
+   background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+  
+   margin-bottom:2px;
+  
+   border:solid 1px #333A40
+}
+#menuderoulantesaufacceuil li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menuderoulantesaufacceuil  a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+.diminuerimagemenu{
+  height: 30px;
+  width: 30px;
+ background-color: white;
+}
+
+#menuderoulantesaufacceuil ul li a, #menuderoulantesaufacceuil li:hover li a {
+  font-size:1em
+}
+#menuderoulantesaufacceuil li:hover {
+   background: rgb(82, 169, 156);
+}
+#menuderoulantesaufacceuil li li:hover {
+   background: #999;
+}
+#menuderoulantesaufacceuil ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menuderoulantesaufacceuil li:hover li {
+  max-height: 15em;
+}
+
+
+  * {
+    margin: 0;
+    padding: 0;
+ }
+ .fond{
+  background-color: rgba(243, 235, 226, 0.881);
+ }
+ .fondtitre{
+    background:url(https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg) ;
+    opacity: 0.8;
+   height: 500px;
+    background-size: cover; 
+}
+.NOMDESTITRES{
+  font-family: 'Parisienne',cursive;
+  font-size: 10ch;
+  text-align: center;
+  color: white;
+  padding-top: 215px;
+}
+.texte1{
+  margin-top: 50px;
+}
+.imggauche{
+  padding-top: 100px;
+}
+.sticker{
+  padding-top: 100px;
+  width: 30%;
+  height: 20%;
+}
+
+.textedroite{
+  display: block;
+  padding-right: 2cm;
+}
+.textegauche{
+  display: block;
+width: 1000px;
+}
+.demipage{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .demipage img{
+    margin-top: 0;
+  }
+.soustitres1{
+  text-align: center;
+  font-family: 'bitter',serif;
+  padding-top: 30px;
+  font-size: x-large;
+}
+.soustitres2{
+  font-family: 'Bitter', serif;
+  font-size: large;
+  color: darkblue;
+  margin-left:1cm;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: normal;
+}
+.demipage1{
+  background: url(https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg);
+  height: 18cm;
+  display: flex;
+  background-size: cover;
+}
+.demipage{
+  display: flex;
+}
+.p1{
+  height: 500px;
+  width: 300px;
+}  
+.photo{
+ width: 6cm;
+ height: 6cm;
+ padding-top: 2cm;
+}
+.photo3{
+  height: 500px;
+  width: 600px;
+}
+.photo2{
+  width: 6cm;
+  height: 6cm;
+}
+.colonne{
+  grid-template-columns: repeat();
+padding-top: 4cm;
+}
+.p2{
+height: 500px;
+width: 300px;
+}
+.images{
+  margin: auto;
+}
+.image{
+  width: 800px;
+    height: 450px;
+ padding-left:800px;}
+p{
+  padding-left: 1cm;
+  padding-right: 1cm;
+  font-family: 'Poppins', sans-serif;
+}
+.slider {
+    width: 800px;
+    margin-left: 45px;
+    position: relative;
+    margin-top: 45px;
+      
+  }
+.slider-viewport {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 1px;
+    
+  }
+  .slider-viewport{
+    width: 700px;
+   
+  }
+  .photosdéroulantes {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    animation: 2s ease-in-out infinite both;
+  }
+  .photosdéroulantes img {
+    width:800px;
+    height: 400px;
+  }
+  .slider-nav {
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .slider-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    background-color: #adafbc;
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
+  .slider-nav a:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+  }
+  #img2:target .photosdéroulantes{
+    -webkit-transform: translateX(-800px);
+            transform: translateX(-800px);
+  }
+  #img3:target .photosdéroulantes {
+    -webkit-transform: translateX(-1600px);
+            transform: translateX(-1600px);
+  }
+ 
+
+  .demipage3{
+    padding:auto;
+    align-items: center;
+  }
+
+
+  
+iframe{
+padding-left: 12.5%;}
+
+
+
+
+
+
+
+.pieddepage{
+  background:rgb(82, 169, 156);
+  margin-left: auto;
+  height: 300px;
+  
+}
+  
+ .logonom1{
+  color: black;
+  margin-top: 5%;
+  margin-left: 80%;
+  font-size: 25px;
+  padding-top: 7%;
+ 
+}
+.logonom1 a:hover{
+ color: black;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom1 a{
+ color: goldenrod;
+ text-decoration: none;
+}
+
+.contact1{
+  margin-top: -8%;
+  margin-left: 2%;
+}
+button{
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+button a{
+  color: white;
+  cursor: pointer
+  
+}
+button a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}

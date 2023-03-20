@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto',sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./image\ page\ acceui\ le\ reel.jpg);
+  background-position: center;
+  background-size: cover;
+ 
+  
+}
+.navbar{
+  display: flex;
+}
+
+.titrepage h1 {
+  font-size: 70px;
+  color: #ffffff;
+  margin-top: 15%;
+  margin-left: 2%;
+  font-family: 'Parisienne', cursive;
+}
+.titrepage1 h2{
+  font-family: 'Parisienne', cursive; 
+  color: #ffffff;
+}
+.logonom{
+  color: white;
+  margin-left: 3%;
+  font-size: 25px;
+ top: 0;
+ padding-top: 4%;
+
+   
+}
+.logonom a:hover{
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom a{
+ color:rgb(206, 161, 48);
+ text-decoration: none;
+}
+
+.menu {
+  display: inline-block;
+ margin-top: 4%;
+  margin-left: 30%;
+  z-index: 10;
+  
+}
+.menu > li {
+  float: left;
+  color: transparent;
+  width:150px;
+  height: 40px;
+  line-height: 40px;
+ background-color:transparent;
+  cursor: pointer;
+  font-size: 17px;
+
+ 
+}
+.sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+ 
+}
+.sub-menu li {
+  font-size: 14px;
+  background-color:grey;
+  padding: 8px 0;
+  margin: auto;
+  border-bottom: 1px solid white;
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+  
+}
+.sub-menu li:last-child {
+  
+  border-bottom: 0;
+ 
+}
+.sub-menu li:hover {
+  background: rgba(0, 0, 0, 0.788);
+  border-radius: 20px;
+}
+.menu > li:hover .sub-menu li {
+  transform: scale(1);
+}
+.menu > li:hover .sub-menu {
+  transform: scale(1);
+  }
+
+  .couleurdeslien a:hover {
+      cursor: pointer;
+      color: antiquewhite;
+  }
+  .couleurdeslien{
+      text-decoration: none;
+      color: white;
+      margin: 20%;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2? family= Parisienne & display=swap');
+  
+  .image11 {
+      cursor: pointer;
+      height: 250px;
+      width: 200px;
+      position: relative;
+      overflow: hidden;
+      
+      
+      
+      margin-left: 1%;
+    }
+    .image11 .imgsacceuil{
+      background-color: rgb(211, 186, 141);
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      color: #fff;
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      opacity: 0;
+      width: 150px;
+      height: 100px;
+      padding: 140px 40px;
+      margin-top: auto;
+    
+    }
+    
+    .image11:hover .imgsacceuil{
+      opacity: 0.8;
+     
+    
+    }
+    .image11 .text {
+      -webkit-transition: all 300ms ease-out;
+      -moz-transition: all 300ms ease-out;
+      -o-transition: all 300ms ease-out;
+      -ms-transition: all 300ms ease-out;
+      transition: all 300ms ease-out;
+      transform: translateY(30px);
+      -webkit-transform: translateY(30px);
+      
+    }
+    .image11 .titrepage{
+      font-size: 2.5em;
+      text-transform: uppercase;
+      opacity: 0;
+      transition-delay: 0.2s;
+      transition-duration: 0.3s;
+      margin-top: -50%;
+      margin-left: 10%;
+     
+    }
+    .image11:hover .titrepage,
+    .image11:focus .titrepage {
+      opacity: 1;
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      
+    }
+    
+     .text{
+      cursor: pointer;
+      color: #fff;
+      font-size: 20px;
+      
+     
+    }
+    #fleximageacceuil{
+       
+        display: flex;
+        margin-left: 55%;
+        margin-top: -20%;
+        
+      
+       
+    }
+    #fleximageacceuil1{
+      display: flex;
+      margin-top: -0.5%;
+      margin-left:63% ;
+     
+    }
+    
+    .pieddepage{
+      background:rgb(231, 185, 70);
+      margin-left: auto;
+      height: 200px;
+      
+    }
+      
+     .logonom1{
+      color: black;
+      margin-top: 5%;
+      margin-left: 80%;
+      font-size: 25px;
+      padding-top: 5%;
+     
+    }
+    .logonom1 a:hover{
+     color: black;
+     border: none;
+     cursor: pointer;
+     text-decoration: none;
+    }
+    .logonom1 a{
+     color: rgb(133, 97, 6);
+     text-decoration: none;
+    }
+    
+    .contact1{
+      margin-top: -13%;
+      margin-left: 2%;
+    }
+    button{
+      width: 150px;
+      height: 30px;
+      background-color: black;
+      color: white;
+    }
+    button a{
+      color: white;
+      cursor: pointer
+      
+    }
+    button a:hover{
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+    }

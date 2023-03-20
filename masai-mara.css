@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&family=Poppins:wght@200;400&display=swap');
+
+
+
+.logonom{
+  color: white;
+  margin-top: 1%;
+  margin-left: -80%;
+  font-size: 25px;
+ top: 0; 
+}
+.logonom a:hover{
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom a{
+ color: #fff;
+ text-decoration: none;
+}
+#entetedespages{
+  background:coral;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+
+
+
+#menuderoulantesaufacceuil {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 110px;
+ margin-left: 90%;
+ margin-top: 1.5%;
+position: fixed;
+}
+#menuderoulantesaufacceuil ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+}
+#menuderoulantesaufacceuil li {
+   background-color: #999; 
+   background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+   background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+  
+   margin-bottom:2px;
+  
+   border:solid 1px #333A40
+}
+#menuderoulantesaufacceuil li li {
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#menuderoulantesaufacceuil  a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+.diminuerimagemenu{
+  height: 30px;
+  width: 30px;
+ background-color: white;
+}
+
+#menuderoulantesaufacceuil ul li a, #menuderoulantesaufacceuil li:hover li a {
+  font-size:1em
+}
+#menuderoulantesaufacceuil li:hover {
+   background:coral;
+}
+#menuderoulantesaufacceuil li li:hover {
+   background: #999;
+}
+#menuderoulantesaufacceuil ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#menuderoulantesaufacceuil li:hover li {
+  max-height: 15em;
+}
+
+
+img{
+    width: 440px;
+    height: 300px;
+    float: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   
+   
+   
+   
+   .baniere {
+    width: 100%;
+    height: 18cm;
+    position: fixed;
+    top: 100px;
+    background-image: url(https://whiteplainsafaris.com/images/masai-mara-reserve-banner.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+   }
+   .baniere h2 {
+    font-family: 'Parisienne',cursive;
+  font-size: 10ch;
+  text-align: center;
+  color: white;
+  padding-top: 215px;
+   }
+   .baniere h3{
+    color: white;
+    margin-left: 710px;
+   }
+  .demipage1 .carte h2{
+    font-family: 'Parisienne',cursive;
+    font-size: xx-large;
+  }
+   .contenu {
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    height: 4900px;
+    background-color: rgb(236, 216, 195);
+
+   }
+   .texte1,.photos{
+padding-top: 50px;
+   }   
+   .photosrondes {
+    width:250px;
+    clip-path: circle();
+    
+ }
+  
+   .imggauche{
+    padding-top: 100px;
+  }
+  
+  .textedroite{
+    display: block;
+    padding-right: 2cm;
+  }
+  .textegauche{
+    display: block;
+  width: 800px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  }
+  .demipage{
+      display: flex;
+    }
+  .soustitres1{
+    text-align: center;
+    font-family: 'bitter',serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: x-large;
+  }
+  .soustitres2{
+    font-family: 'Bitter', serif;
+    font-size: large;
+    color:  rgb(17, 100, 93);
+    padding-left:30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: normal;
+  }
+   .demipage1{
+    background-color: coral;
+    height: 600px;
+    display: flex;
+    background-size: cover;
+  }
+  .carte{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    width: 500px;
+  }
+  .video{
+    margin-right: 0;
+  }
+  iframe{
+    height: 600px;
+    width: 1000px;
+  }
+  .demipage{
+    display: flex;
+    padding-top: 40px;
+  }
+  .p1{
+    height: 500px;
+    width: 300px;
+  }  
+  .photo{
+   width: 6cm;
+   height: 7cm;
+   padding-top: 20px;
+   padding-left: 20px;
+  }
+  .photo2{
+    width: 6cm;
+    height: 6cm;
+  }
+  .colonne{
+    grid-template-columns: repeat();
+  padding-top: 40px;
+  margin: auto;
+  padding-bottom: 40px;
+
+  }
+ 
+  
+  .images{
+    margin: auto;
+    
+  }
+  .image{
+    width: 800px;
+      height: 450px;
+   padding-left:800px;}
+  p{
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-family: 'Poppins', sans-serif;
+  } 
+  .carte p,h2{
+    margin: auto;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 10%;
+  }
+  
+  
+   .carte img{
+    width: 40%;
+    height: 20%;
+   }
+
+
+
+   .pieddepage1{
+    background:rgb(159, 108, 13);
+   
+    height: 300px;
+    
+  }
+    
+   .logonom1{
+    color: black;
+    margin-top: 5%;
+    margin-left: 80%;
+    font-size: 25px;
+    padding-top: 7%;
+   
+  }
+  .logonom1 a:hover{
+   color: black;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+  }
+  .logonom1 a{
+   color: goldenrod;
+   text-decoration: none;
+  }
+  
+  .contact1{
+    margin-top: -8%;
+    margin-left: -60%;
+    
+  }
+  button{
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+  }
+  button a{
+    color: white;
+    cursor: pointer
+    
+  }
+  button a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+  }

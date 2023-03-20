@@ -1,0 +1,231 @@
+
+.logonom{
+    color: white;
+    margin-top: -1%;
+    margin-left: 5%;
+    font-size: 25px;
+   top: 0; 
+  }
+  .logonom a:hover{
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+  }
+  .logonom a{
+   color: #fff;
+   text-decoration: none;
+  }
+  
+  #entetedespages{
+    background-color: #333A40;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+   
+  .bodytoutepage{
+    background: url(./imgdestination2.jpg) center center no-repeat;
+    background-size: cover;
+  }
+   
+   #menuderoulantesaufacceuil {
+     padding:0;
+     margin:0;
+     list-style:none;
+     text-align: center;
+     width: 110px;
+    margin-left: 90%;
+    margin-top: 1.5%;
+   position: fixed;
+   }
+   #menuderoulantesaufacceuil ul {
+     padding:0;
+     margin:0;
+     list-style:none;
+     text-align: center;
+   }
+   #menuderoulantesaufacceuil li {
+      background-color: #999; 
+      background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+      background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+      margin-bottom:2px;
+      border:solid 1px #333A40
+   }
+   #menuderoulantesaufacceuil li li {
+      max-height:0;
+      overflow: hidden;
+      transition: all .5s;
+      border-radius:0;
+      background: #444;
+      box-shadow: none;
+      border:none;
+      margin:0
+   }
+   #menuderoulantesaufacceuil  a {
+     display:block;
+     text-decoration: none;
+     color: #fff;
+     padding: 8px 0;
+     font-family: verdana;
+     font-size:1.2em
+   }
+   .diminuerimagemenu{
+     height: 30px;
+     width: 30px;
+    background-color: white;
+  }
+  
+   #menuderoulantesaufacceuil ul li a, #menuderoulantesaufacceuil li:hover li a {
+     font-size:1em
+   }
+   #menuderoulantesaufacceuil li:hover {
+      background:black
+   }
+   #menuderoulantesaufacceuil li li:hover {
+      background: #999;
+   }
+   #menuderoulantesaufacceuil ul li:last-child {
+      border-radius: 0 0 6px 6px;
+      border:none;
+   }
+   #menuderoulantesaufacceuil li:hover li {
+     max-height: 15em;
+   }
+    
+  
+    
+      
+    .NOMDESTITRES{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-style: oblique;
+      font-size: 70px;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+      margin-top:10%;
+  
+  }
+  
+  p{
+    padding-left: 1cm;
+    padding-right: 1cm;
+    font-family: 'Poppins', sans-serif;
+    
+   }
+  
+  
+  #contenu2  {
+    display: flex;
+  
+  }
+  
+ 
+   .container1{
+    width: 1000px;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+  }
+  
+  
+  .box{
+     
+    position: relative;
+    width: 450px;
+    height:500px;
+    margin: 10px;
+   
+    background-color: rgba(128, 128, 128, 0.801);
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+    margin-right: -50px;
+    margin-left: -50px;
+    margin-bottom: 20%;
+  }
+  
+  .box .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:80%;
+  }
+  
+  .box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+    object-fit: cover;
+    transition: 0.5s;    
+  }
+  
+  .box:hover .imgBx img{
+    opacity: 0;
+  }
+  
+  .box .content{
+    position: absolute;
+    bottom:40px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background-color: rgb(231, 222, 222);
+    color:black;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+    
+  }
+  
+  .box:hover .content{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  .box .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+  }
+  
+  .box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+  }
+  .bouttontoutCONTENU2, .bouttontoutCONTENU3{
+    height: 45px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-style:oblique;
+    font-size: large;
+    border-radius: 4px;
+    margin-left: 30%;
+    margin-top: 25%;
+  
+    outline: none;
+    
+  }
+  .positionfig1destination{
+    text-align: center;
+      margin-top:1%;
+  
+  }
+  

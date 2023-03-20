@@ -1,0 +1,332 @@
+
+.logonom{
+    color: white;
+    margin-top: -1%;
+    margin-left: 5%;
+    font-size: 25px;
+   top: 0;
+   
+     
+ }
+ .logonom a:hover{
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+ }
+ .logonom a{
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ body{
+   background: url(./imagefondguide.jpg);
+ }
+ 
+ 
+ #entetedespages{
+     background-color:goldenrod;
+     height: 100px;
+      width: 100%;
+     position: fixed;
+     z-index: 10;
+      
+   } 
+   #menuderoulantesaufacceuil {
+     padding:0;
+     margin:0;
+     list-style:none;
+     text-align: center;
+     width: 110px;
+    margin-left: 90%;
+    margin-top: 1.5%;
+   position: fixed;
+   }
+   #menuderoulantesaufacceuil ul {
+     padding:0;
+     margin:0;
+     list-style:none;
+     text-align: center;
+   }
+   #menuderoulantesaufacceuil li {
+      background-color: #999; 
+      background-image:-webkit-linear-gradient(top, black 0%, #333A40 100%);
+      background-image: linear-gradient(to bottom,black 0%, #333A40 100%);
+     
+      margin-bottom:2px;
+     
+      border:solid 1px #333A40
+   }
+   #menuderoulantesaufacceuil li li {
+      max-height:0;
+      overflow: hidden;
+      transition: all .5s;
+      border-radius:0;
+      background: #444;
+      box-shadow: none;
+      border:none;
+      margin:0
+   }
+   #menuderoulantesaufacceuil  a {
+     display:block;
+     text-decoration: none;
+     color: #fff;
+     padding: 8px 0;
+     font-family: verdana;
+     font-size:1.2em
+   }
+   .diminuerimagemenu{
+     height: 30px;
+     width: 30px;
+    background-color: white;
+ }
+ 
+   #menuderoulantesaufacceuil ul li a, #menuderoulantesaufacceuil li:hover li a {
+     font-size:1em
+   }
+   #menuderoulantesaufacceuil li:hover {
+      background: rgb(228, 166, 9)
+   }
+   #menuderoulantesaufacceuil li li:hover {
+      background: #999;
+   }
+   #menuderoulantesaufacceuil ul li:last-child {
+      border-radius: 0 0 6px 6px;
+      border:none;
+   }
+   #menuderoulantesaufacceuil li:hover li {
+     max-height: 15em;
+   }
+ 
+   .NOMDESTITRES{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-style: oblique;
+     font-size: 70px;
+     text-align: center;
+     background-color: transparent;
+     color:black;
+     margin-top:10%;
+   
+   }
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ /* IMAGE DE FOND */
+ 
+ /* IMAGE DE COVER */
+ .coverphotozanzibar{	
+     height:160px;
+   background:url('https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg') ;
+     background-position:center center;
+     border-bottom:1px solid #ccc;
+ }
+ 
+ 
+ .soustitres2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+ }
+ .texte1{
+    margin-left: 41.5%;
+    margin-top: -10.5%;
+    border: solid 1px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    text-align: center;
+ }
+ /* IMAGE DE PROFIL */
+ .profile_picture{
+     width:110px;
+     height:110px;
+     margin-top: -10%;
+   margin-left: 8%;
+     border-radius:150px;
+   padding:7px;
+     
+ }
+ 
+ /* BLOC CARTE */
+ .portfoliocard{
+     
+     height:450px;
+     width:600px;
+     background: beige;
+     overflow:hidden;
+     z-index:100;
+   margin-top: 12%;
+   border-radius:20px;
+   box-shadow: none;
+ }
+ 
+ /* COLONNE */
+ .left_col, .right_col{
+     float:left;
+     height:340px;
+ }
+ .left_col{
+     width:40%;
+     padding-top:85px;
+ }
+ .right_col{
+     width:60%;
+     border-left:1px solid #ccc;
+     margin-left:-1px;
+   margin-top: -10%;
+ }
+ 
+ /* TEXTE */
+ h2.name{
+   font-family: 'Amatic SC', cursive;
+   font-size:40px;
+     font-weight:300;
+     
+     padding:0;
+     margin:20px 10px 0px 30px;
+ }
+ h3.location{
+     font-size:15px;
+     font-weight:300;
+     color:rgba(170,170,170,1);
+     padding:0;
+     margin:-5px 10px 10px 30px;
+ }
+ .contact_information{
+     margin-top:20px;
+     padding-left:30px;
+     list-style-type:none;
+   border: 1px black;
+ }
+ .contact_information li{
+     height:25px;
+     width:80%;
+     line-height:25px;
+     font-weight:300;
+     font-size:15px;
+     color:rgba(140,140,140,1);
+     text-shadow:1px 1px 1px rgba(255,255,255,0.8);
+     padding:5px 0px;
+     background-repeat:no-repeat;
+     background-size:18px 18px;
+     border-bottom:1px solid rgba(0,0,0,0.1);
+     box-shadow:0px 1px 1px rgba(255,255,255,0.6);
+     cursor:default;
+ }
+ .contact_information li:before{
+     content:"";
+     width:25px;
+     height:25px;
+     display:block;
+     float:left;
+     background-position:center;
+     background-size:18px 18px;
+     background-repeat:no-repeat;
+     margin-right:5px;
+     opacity:0.7;
+ }
+
+ 
+ /* SOCIAL */
+ .followers, .following{
+     margin:15px 0px 0px 35px;
+     font-weight:300;
+     font-size:16px;
+     color:rgba(30,30,30,1);
+   
+ }
+ .follow_count{
+     font-weight:400;
+     font-size:25px;
+     color:rgba(140,140,140,1);
+ }
+ 
+ 
+ 
+ .coverphotomaroc{
+   height:160px;
+   background:url('https://maroc-bivouac.com/wp-content/uploads/2020/01/SLIDE-1.jpg') ;
+     background-position:center center;
+     border-bottom:1px solid #ccc;
+ }
+ 
+ .portfoliocard2{
+   height:450px;
+     width:600px;
+     background: beige;
+     overflow:hidden;
+     z-index:100;
+   margin-top: 10%;
+   border-radius:20px;
+   box-shadow: none;
+   margin-left: 55%;
+ }
+ 
+ 
+ .soustitres3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+ 
+ }
+ 
+ .texte3{
+   margin-left: auto;
+   margin-right:45%;
+   border: solid 1px rgba(0, 0, 0, 0.603);
+   border-radius: 10px;
+   margin-top: -10.5%;
+   text-align: center;
+   
+ }
+ 
+ 
+ 
+ .portfoliocard3{
+   height:450px;
+     width:600px;
+     background: beige;
+     overflow:hidden;
+     z-index:100;
+   margin-top: 10%;
+   border-radius:20px;
+   box-shadow: none;
+ }
+ 
+ .coverphotosenegal{
+   height:160px;
+   background:url('https://www.les-covoyageurs.com/ressources/images-lieux/1326-visiter-l-ile-de-goree-senegal.jpg') ;
+     background-position:center center;
+     border-bottom:1px solid #ccc;
+ }
+ 
+ 
+ .coverphotokenya{
+   height:160px;
+   background:url('https://whiteplainsafaris.com/images/masai-mara-reserve-banner.jpg') ;
+     background-position:center center;
+     border-bottom:1px solid #ccc;
+ }
+ 
+ 
+ .coverphotoseychelles{
+   height:160px;
+   background:url('https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/indian-ocean/seychelles/la-digue/la-digue_0004_seychelles-granite-rocks.jpeg?w=1920&h=940') ;
+     background-position:center center;
+     border-bottom:1px solid #ccc;
+ }
+
+
+
+ .texte1dernier{
+    margin-left: 41.5%;
+    margin-top: -11.5%;
+    border: solid 1px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    text-align: center;
+ }
+
+
+ 
