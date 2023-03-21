@@ -51,7 +51,7 @@
 .menu {
   display: inline-block;
  margin-top: 4%;
-  margin-left: 30%;
+  margin-left: 20%;
   z-index: 10;
   
 }
@@ -114,13 +114,10 @@
   
   .image11 {
       cursor: pointer;
-      height: 250px;
+      height: 213px;
       width: 200px;
       position: relative;
       overflow: hidden;
-      
-      
-      
       margin-left: 1%;
     }
     .image11 .imgsacceuil{
@@ -165,8 +162,7 @@
       transition-delay: 0.2s;
       transition-duration: 0.3s;
       margin-top: -50%;
-      margin-left: 10%;
-     
+      text-align: center;
     }
     .image11:hover .titrepage,
     .image11:focus .titrepage {
@@ -180,8 +176,7 @@
       cursor: pointer;
       color: #fff;
       font-size: 20px;
-      
-     
+      text-align: center;
     }
     #fleximageacceuil{
        
